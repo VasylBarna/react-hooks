@@ -29,7 +29,7 @@ export default function ColorPicker({ options }) {
   );
 }
 
-// class OldColorPicker extends PureComponent {
+// class ColorPicker extends PureComponent {
 //   state = {
 //     activeOptionIdx: 0,
 //   };
@@ -68,3 +68,5 @@ export default function ColorPicker({ options }) {
 //     );
 //   }
 // }
+
+// export default ColorPicker;

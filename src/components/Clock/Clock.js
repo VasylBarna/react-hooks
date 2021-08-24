@@ -33,7 +33,7 @@ export default function Clock() {
   );
 }
 
-// class OldClock extends Component {
+// export default class Clock extends Component {
 //   state = {
 //     time: new Date(),
 //   };
@@ -63,7 +63,7 @@ export default function Clock() {
 //           Текущее время: {this.state.time.toLocaleTimeString()}
 //         </p>
 //         <button type="button" onClick={this.stop}>
-//           Остановить
+//           Stop
 //         </button>
 //       </div>
 //     );

@@ -27,7 +27,6 @@ export default function Counter() {
       >
         Кликнули counterA {counterA} раз
       </button>
-
       <button
         className={styles.btn}
         type="button"
@@ -39,7 +38,7 @@ export default function Counter() {
   );
 }
 
-// class OldCounter extends Component {
+// export default class Counter extends Component {
 //   state = {
 //     counterA: 0,
 //     counterB: 0,
@@ -53,22 +52,22 @@ export default function Counter() {
 //     this.setState(({ counterB }) => ({ counterB: counterB + 1 }));
 //   };
 
-// componentDidMount() {
-//   const { counterA, counterB } = this.state;
-//   const totalClicks = counterA + counterB;
-
-//   document.title = `Всего кликнули ${totalClicks} раз`;
-// }
-
-// componentDidUpdate(prevProps, prevState) {
-//   const { counterA, counterB } = this.state;
-
-//   if (prevState.counterA !== counterA || prevState.counterB !== counterB) {
+//   componentDidMount() {
+//     const { counterA, counterB } = this.state;
 //     const totalClicks = counterA + counterB;
 
 //     document.title = `Всего кликнули ${totalClicks} раз`;
 //   }
-// }
+
+//   componentDidUpdate(prevProps, prevState) {
+//     const { counterA, counterB } = this.state;
+
+//     if (prevState.counterA !== counterA || prevState.counterB !== counterB) {
+//       const totalClicks = counterA + counterB;
+
+//       document.title = `Всего кликнули ${totalClicks} раз`;
+//     }
+//   }
 
 //   render() {
 //     return (
